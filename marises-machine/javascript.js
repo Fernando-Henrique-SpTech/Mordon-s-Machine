@@ -48,11 +48,9 @@ conv10a2.innerHTML += ` ${valor10a2}`;
 conv10a8.innerHTML += ` ${valor10a8}`;
 conv10a16.innerHTML += ` ${valor10a16}`;
 
-}
-
 // Conversões de hexadecimal para outras bases
 
-let valorHexadecimal = (input_valor_hexadecimal.value);
+let valorHexadecimal = input_valor_hexadecimal.value;
 
 let valor16a2 = parseInt(valorHexadecimal,2);
 let valor16a8 = parseInt(valorHexadecimal,8);
@@ -66,3 +64,6 @@ conv16a2.innerHTML += ` ${valor16a2}`;
 conv16a8.innerHTML += ` ${valor16a8}`;
 conv16a10.innerHTML += ` ${valor16a10}`;
 
+console.log(valor16a2);
+
+}
