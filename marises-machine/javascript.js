@@ -12,9 +12,9 @@ let conv2a8 = document.getElementById("resultado_binario_octal");
 let conv2a10 = document.getElementById("resultado_binario_decimal");
 let conv2a16 = document.getElementById("resultado_binario_hexadecimal");
 
-resultado_binario_octal.innerHTML += ` ${conv2a8}`;
-resultado_binario_decimal.innerHTML += ` ${conv2a10}`;
-resultado_binario_hexadecimal.innerHTML += ` ${conv2a16}`;
+conv2a8.innerHTML += ` ${valor2a8}`;
+conv2a10.innerHTML += ` ${valor2a10}`;
+conv2a16.innerHTML += ` ${valor2a16}`;
 
 // Conversões de octal para outras bases
 
@@ -28,9 +28,9 @@ let conv8a2 = document.getElementById("resultado_octal_binario");
 let conv8a10 = document.getElementById("resultado_octal_decimal");
 let conv8a16 = document.getElementById("resultado_octal_hexadecimal");
 
-resultado_octal_binario.innerHTML += ` ${conv8a2}`;
-resultado_octal_decimal.innerHTML += ` ${conv8a10}`;
-resultado_octal_hexadecimal.innerHTML += ` ${conv8a16}`;
+conv8a2.innerHTML += ` ${valor8a2}`;
+conv8a10.innerHTML += ` ${valor8a10}`;
+conv8a16.innerHTML += ` ${valor8a16}`;
 
 // Conversões de decimal para outras bases
 
@@ -44,9 +44,9 @@ let conv10a2 = document.getElementById("resultado_decimal_binario");
 let conv10a8 = document.getElementById("resultado_decimal_octal");
 let conv10a16 = document.getElementById("resultado_decimal_hexadecimal");
 
-resultado_decimal_binario.innerHTML += ` ${conv10a2}`;
-resultado_decimal_octal.innerHTML += ` ${conv10a8}`;
-resultado_decimal_hexadecimal.innerHTML += ` ${conv2a16}`;
+conv10a2.innerHTML += ` ${valor10a2}`;
+conv10a8.innerHTML += ` ${valor10a8}`;
+conv10a16.innerHTML += ` ${valor10a16}`;
 
 }
 
@@ -62,7 +62,7 @@ let conv16a2 = document.getElementById("resultado_hexadecimal_binario");
 let conv16a8 = document.getElementById("resultado_hexadecimal_octal");
 let conv16a10 = document.getElementById("resultado_hexadecimal_decimal");
 
-resultado_hexadecimal_binario.innerHTML += ` ${conv10a2}`;
-resultado_hexadecimal_octal.innerHTML += ` ${conv10a8}`;
-resultado_hexadecimal_decimal.innerHTML += ` ${conv2a16}`;
+conv16a2.innerHTML += ` ${valor16a2}`;
+conv16a8.innerHTML += ` ${valor16a8}`;
+conv16a10.innerHTML += ` ${valor16a10}`;
 
