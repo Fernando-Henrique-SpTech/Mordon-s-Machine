@@ -42,7 +42,7 @@
 }
 
 .campo {
-    display: none;
+    display: flex;
     background-color: #dcdcdc;
     border-radius: 5px;
     padding: 5px;
