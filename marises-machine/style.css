@@ -4,26 +4,33 @@
 }
 
 .calculadora {
-background-image: url(wp1858794-middle-earth-shadow-of-mordor-wallpapers.jpg);
-background-position: bottom;
-background-size: cover;
-background-repeat: no-repeat;
+    background-image: url(wp1858794-middle-earth-shadow-of-mordor-wallpapers.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.calculadora .container {
+
+.container {
+    text-align: center;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: 80%;
     height: 100vh;
-    margin: 0 auto;
+    margin: auto;
 }
+
 .calculadora .title {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #dcdcdc;
     width: 35%;
     padding: 65px 30px;
@@ -31,21 +38,18 @@ background-repeat: no-repeat;
     border-radius: 15px 15px 0 0;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.card .input {
-    width: 80%;
-}
+
 .card input {
-    width: 100%;
+    /* width: 100%; */
     height: 50px;
     font-size: 16px;
     padding: 0 30px;
     border-radius: 6px;
 }
 .card .btn {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .card .btn button {
     width: 100%;
@@ -59,12 +63,13 @@ background-repeat: no-repeat;
     color: white;
 }
 .campo {
+    flex-direction: column;
     display: flex;
     background-color: #dcdcdc;
     border-radius: 5px;
     padding: 5px;
     color: rgb(0, 0, 0);
-    width: 15%;
+    /* width: 15%; */
     height: 40px;
     font-weight: 500;
 }
