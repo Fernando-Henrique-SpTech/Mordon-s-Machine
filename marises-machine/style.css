@@ -4,12 +4,15 @@
 }
 
 .calculadora {
-background-image: url(background.jpg);
+background-image: url(wp1858794-middle-earth-shadow-of-mordor-wallpapers.jpg);
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat;
 }
 .calculadora .container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 80%;
     height: 100vh;
     margin: 0 auto;
