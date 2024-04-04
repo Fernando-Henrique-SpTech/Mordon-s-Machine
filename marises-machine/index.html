@@ -22,19 +22,26 @@
 
                         <div class="card">
 
-                                <h3>Binário</h3>
-                                <input id="input_valor_binario" type="text" placeholder="Digite o valor em binário">
+                                <div class="input">
+                                        <h2>Decimal</h2>
+                                        <input id="input_valor_binario" type="text" placeholder="Digite o valor em binário">
+                                        <h3>Converter para:</h3>
+                                </div>
 
-                                <h3>Converter para:</h3> <br>
+                                <div class="saida1">
+                                        <h3> Binário </h3>
+                                        <div class="campo" id="resultado_decimal_binario"></div>
+                                </div>
 
-                                <h3> Octal </h3>
-                                <div class="campo" id="resultado_binario_octal"></div>
+                                <div class="saida2">
+                                        <h3> Octal </h3>
+                                        <div class="campo" id="resultado_decimal_octal"></div>
+                                </div>
 
-                                <h3> Decimal </h3>
-                                <div class="campo" id="resultado_binario_decimal"></div>
-
-                                <h3> Hexadecimal </h3>
-                                <div class="campo" id="resultado_binario_hexadecimal"></div>
+                                <div class="saida3">
+                                        <h3> Hexadecimal </h3>
+                                        <div class="campo" id="resultado_decimal_hexadecimal"></div>
+                                </div>
 
                                 <div class="btn">
                                         <button onclick="converter()">Converter</button>
@@ -42,6 +49,8 @@
                         </div>
 
                 </div>
+
+        </div>
 </body>
 
 </html>
