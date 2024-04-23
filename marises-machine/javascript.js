@@ -22,10 +22,10 @@ let conv8a2 = document.getElementById("resultado_octal_binario");
 let conv8a10 = document.getElementById("resultado_octal_decimal");
 let conv8a16 = document.getElementById("resultado_octal_hexadecimal");
 
-let octalDecimal = parseInt(valorOctal, 10);
+let octalDecimal = parseInt(valorOctal, 8);
 
 conv8a2.innerHTML = `${octalDecimal.toString(2)}`;
-conv8a10.innerHTML = `${parseInt(valorOctal, 10)}`;
+conv8a10.innerHTML = `${parseInt(valorOctal, 8)}`;
 conv8a16.innerHTML = ` ${(octalDecimal.toString(16)).toUpperCase()}`;
 
 let valorBinario = Number(input_valor_binario.value);
